@@ -93,25 +93,3 @@ def random_dataset(num, var, step=2, cor=False):
 xs, ys = random_dataset(40, 4, 2, cor='pos')
 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
