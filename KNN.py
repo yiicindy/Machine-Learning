@@ -34,7 +34,7 @@ accuracy=knn.score(x_test, y_test)
 
 ####using the knn model created by myself
 #1. Design my own knn function
-def knneighbor(dataset, newdata, k_num=5):
+def knneighbor(dataset, newdata, k_num=5): # type(dataset) is dictionary, type(newdata) is list
     if len(dataset) >= k_num:
         warnings.warn('K should be larger than the number of label!') #fundamental criteria
     distance=[]
